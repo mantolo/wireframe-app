@@ -1,2 +1,2 @@
 # wireframe-app
-fullstack application client part as personal boilerplate
+fullstack application as personal boilerplate, it's for academic perprose
