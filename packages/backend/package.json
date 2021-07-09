@@ -1,0 +1,22 @@
+{
+  "name": "wireframe-server",
+  "version": "0.0.1",
+  "main": "index.js",
+  "description": "RESTful API server for wireframe app",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon ./src/index.mjs",
+    "start": "node ./src/index.mjs"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mysql": "^2.17.1",
+    "uuid": "^3.3.3",
+    "wait-port": "^0.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}

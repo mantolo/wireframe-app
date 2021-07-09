@@ -1,0 +1,52 @@
+[
+	{
+		"plan_id": "a601c4bd-37e0-4c77-9385-48dca49988ed",
+		"plan_type": "Premium",
+		"plan_name": "Plan A",
+		"is_general": 1,
+		"is_specialist": 1,
+		"is_physiotherapy": 1,
+		"price": 748,
+		"discount_off": 0
+	},
+	{
+		"plan_id": "148b6f8a-5b3a-4830-8bb7-f402ed08d902",
+		"plan_type": "Standard",
+		"plan_name": "Plan B",
+		"is_general": 1,
+		"is_specialist": 1,
+		"is_physiotherapy": 0,
+		"price": 388,
+		"discount_off": 0
+	},
+	{
+		"plan_id": "5a7c6745-d255-43fd-a5d9-83fefb7c4062",
+		"plan_type": "Standard",
+		"plan_name": "Plan C",
+		"is_general": 1,
+		"is_specialist": 0,
+		"is_physiotherapy": 0,
+		"price": 0,
+		"discount_off": 0
+	},
+  {
+		"plan_id": "12123121312",
+		"plan_type": "Standard",
+		"plan_name": "Plan D",
+		"is_general": 1,
+		"is_specialist": 0,
+		"is_physiotherapy": 0,
+		"price": 0,
+		"discount_off": 0
+	},
+  {
+		"plan_id": "34762734y2",
+		"plan_type": "Standard",
+		"plan_name": "Plan E",
+		"is_general": 1,
+		"is_specialist": 0,
+		"is_physiotherapy": 0,
+		"price": 0,
+		"discount_off": 0
+	}
+]

@@ -1,0 +1,56 @@
+:root {
+
+  --color-icon-primary: #369;
+}
+
+.loading {
+  color: var(--color-icon-primary, white);
+}
+
+
+
+@media only screen and (max-width: 600px) and (min-width: 0px){
+  .PlanInformation.flex-container.item-xs {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .Plan-loading {
+    animation: Plan-loading-spin infinite .5s linear;
+  }
+
+  .fade-in {
+    opacity: 0;
+    animation: slidein 1 .4s linear;
+    animation-fill-mode: forwards;
+  }
+
+  .Plan-header, .description {
+    opacity: 0;
+    animation: slidein 1 .4s ease-out;
+    animation-delay: .5s;
+    animation-fill-mode: forwards;
+  }
+}
+
+@keyframes Plan-loading-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes slidein {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
