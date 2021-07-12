@@ -59,13 +59,13 @@ With terminal opened, Navigate to _packages/frontend_, you may perform either ac
 
 ### Backend
 
-[Backend API](./packages/backend/README.md)
-
 With terminal opened, Navigate to _packages/backend_, you may perform either actions.
 
 > . start.sh
 
 This will start both server and mysql for development, but it will not clean up network created in docker for you
+
+[Backend API](./packages/backend/README.md)
 
 
 
