@@ -14,7 +14,7 @@ Leveraging `docker-compose`, It will build frontend, start server and mysql toge
 ```
 
 It will take a while to start up whole stack, allow to wait up to 20 seconds  
-once see `wireframe-app` appears in docker desktop with 3 containers inside (you should see 2 running, 1 exited 0), it should be good to go  
+once `wireframe-app` appears in docker desktop with 3 containers inside `wireframe-app` (you should see 2 running, 1 exited 0), it should be good to go  
 
 
 ## Add test data into db
@@ -61,7 +61,7 @@ With terminal opened, Navigate to _packages/frontend_, you may perform either ac
 
 [Backend API](./packages/backend/README.md)
 
-With terminal open, Navigate to _packages/backend_, you may perform either actions.
+With terminal opened, Navigate to _packages/backend_, you may perform either actions.
 
 > . start.sh
 
